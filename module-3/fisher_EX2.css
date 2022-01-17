@@ -1,0 +1,76 @@
+/*
+Name: Charles Fisher
+Date: 16 January 2022
+Assignment name: Building a Web Page Exercise, Part 2
+Purpose: Demonstrate a basic understanding of HTML with CSS elements
+Sources: Duckett, J. (2014). Html & CSS : design and build websites. John Wiley And Sons.
+‌         W3Schools. (2019). HTML Tutorial. W3schools.com. https://www.w3schools.com/html/default.asp
+         W3Schools. (2019). CSS Tutorial.  W3schools.com. https://www.w3schools.com/css/
+‌
+‌*/
+/*Set font sizes*/
+html, body{
+    font-size: 16px;
+}
+
+/*book title settings*/
+h1{
+    font-family:  'Oswald', Verdana, Arial, sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 3.052em;
+    word-spacing: 0.2em;
+    margin: 0px;
+    text-align: center;
+}
+
+/*Chapter title settings*/
+h2{
+    font-family:  'Oswald', Verdana, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 2.441em;
+    word-spacing: 0.2em;
+    margin: 0px;
+    text-align: left;
+    padding-top: 15px;
+}
+
+/*main text settings*/
+p{
+    font-family:'Quattrocento', Georgia, 'Times New Roman', serif;
+    font-weight: 400;
+    line-height: 1.4em;
+}
+
+/*bottom page address settings*/
+address{
+    font-family: 'Quattrocento', Georgia, 'Times New Roman', serif;
+    text-align: center;
+}
+
+/*Bellevue URL settings*/
+a:link{
+    font-weight: bold;
+    font-size: 1.25em;
+    color: #4f3674;
+    text-decoration: none;
+}
+
+a:visited{
+    color: #ec0000;
+}
+
+a:hover{
+    background-color: #D6A800;
+    text-decoration: underline;
+}
+
+/*selected sentences is in italics*/
+.sentence{
+    font-style: italic;
+}
+
+/*indent first paragraph*/
+.intro{
+    text-indent: 2em;
+}
