@@ -1,0 +1,40 @@
+/* 
+Name: Charles Fisher
+Date: 23 January 2022
+Assignment name: GitHub Pages
+Purpose: Create a landing page to the course's GitHub repository 
+Sources: Duckett, J. (2014). Html & CSS : design and build websites. John Wiley And Sons.
+‌         W3Schools. (2019). HTML Tutorial. W3schools.com. https://www.w3schools.com/html/default.asp
+‌*/
+
+body{
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+}
+
+#container{
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+h1, h2, h3, h4{
+    background-color: #3c275a;
+    color: #fff;
+    border: 1px solid #d6a800;
+    padding: 10px;
+}
+
+/*hyper link settings*/
+a{
+    color: #453674;
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: #d6a800;
+    color: #4f3674;
+}
+
+a:visited{
+    color: #3c275a;
+}
