@@ -1,0 +1,54 @@
+/*
+Name: Charles Fisher
+Date: 30 January 2022
+Assignment name: Build a Webpage Exercise, Part 4
+Purpose: Demonstrate a basic understanding of HTML with CSS elements
+Sources: Duckett, J. (2014). Html & CSS : design and build websites. John Wiley And Sons.
+‌         W3Schools. (2019). HTML Tutorial. W3schools.com. https://www.w3schools.com/html/default.asp
+         W3Schools. (2019). CSS Tutorial.  W3schools.com. https://www.w3schools.com/css/
+*/
+/*set full site background*/
+html{
+    background-color: rgba(247, 112, 24, 20%);
+}
+
+/*set fonts*/
+#page-header, .image-header, figcaption{
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+    color: rgba(185, 63, 8, 1);
+    font-weight: 400;
+}
+
+/*format image description*/
+figcaption{
+    font-style: italic;
+    font-size: .75em;
+}
+
+/*align headers and images*/
+#page-header, .image-header, figure{
+    text-align: center;
+}
+
+/*formate images*/
+img{
+    width: 400px;
+    height: 350px;
+}
+
+/*cerate grid for 3 image divs*/
+#image-gallery{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 10%;
+}
+
+.grid-item{
+    border: 1px solid;
+    border-radius: 15px;
+    border-color:rgba(185, 63, 8, 1);
+    padding: 5px;
+}
+
+
+
