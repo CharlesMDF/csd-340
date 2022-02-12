@@ -1,17 +1,19 @@
 /*
 Name: Charles Fisher
-Date: 30 January 2022
-Assignment name: Build a Webpage Exercise, Part 4
+Date: 12 February 2022
+Assignment name: Build a Webpage Exercise, Part 5
 Purpose: Demonstrate a basic understanding of HTML with CSS elements
 Sources: Duckett, J. (2014). Html & CSS : design and build websites. John Wiley And Sons.
 ‌         W3Schools. (2019). HTML Tutorial. W3schools.com. https://www.w3schools.com/html/default.asp
          W3Schools. (2019). CSS Tutorial.  W3schools.com. https://www.w3schools.com/css/
 */
+/*Set font style for whole page*/
  body{
      margin: 0;
      font-family: 'Oswald', Verdana, Arial, sans-serif;
  }
 
+ /*style header elements*/
  header{
      background-color: #3c275a;
      color: white;
@@ -23,6 +25,7 @@ Sources: Duckett, J. (2014). Html & CSS : design and build websites. John Wiley 
      font-weight: 400;
  }
 
+/*style navbar elements*/
  #navbar{
      overflow: hidden;
      background-color: #4F3674;
@@ -43,6 +46,7 @@ Sources: Duckett, J. (2014). Html & CSS : design and build websites. John Wiley 
     color: #4F3674;
 }
 
+/*style book list card elements*/
 #container{
     margin: 2%;
     margin-right: 5%;
@@ -71,6 +75,7 @@ Sources: Duckett, J. (2014). Html & CSS : design and build websites. John Wiley 
     padding: 2px 16px;
 }
 
+/*style footer elements*/
 footer{
     background-color: #4F3674;
     position: absolute;
