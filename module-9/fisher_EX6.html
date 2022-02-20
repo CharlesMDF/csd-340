@@ -1,0 +1,93 @@
+<!-- 
+Name: Charles Fisher
+Date: 19 February 2022
+Assignment name: Build a Webpage Exercise, Part 6
+Purpose: Demonstrate a basic understanding of HTML with CSS elements
+Sources: Duckett, J. (2014). Html & CSS : design and build websites. John Wiley And Sons.
+‌         W3Schools. (2019). HTML Tutorial. W3schools.com. https://www.w3schools.com/html/default.asp
+         W3Schools. (2019). CSS Tutorial.  W3schools.com. https://www.w3schools.com/css/
+‌-->
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <title>CSD 340 Web Development with HTML and CSS</title>
+        <!--Link to CSS-->
+        <link href="fisher_EX6.css" type="text/css" rel="stylesheet"/>
+        <!--Link to google font package-->
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&display=swap" rel="stylesheet"/> 
+    </head>
+    <!--Page content begin-->
+    <body>
+        <!--Page main header-->
+        <header>
+            <h1>Assignment 9.2: Build a Web Page - Part 6</h1>
+        </header>
+        <!--Navigation bar-->
+        <div id = "navbar">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </div>
+        <!--Main Container-->
+        <div id = "container">
+            <!--Book entry Card-->
+            <div class="card">
+                <div class="card-title">Book Entry Form</div>
+                <div class="card-content">
+                    <div class="form">
+                        <!--Text Entry Field-->
+                        <div class="form-field">
+                            <label for="txtBookName">Book Name:</label>
+                            <input type="text" id="txtBookName" name="txtBookName" class="input">
+                        </div>
+                        <!--Submit Button-->
+                        <div class="form-field">
+                            <button type="submit" class="btn btn-primary full-width">Create Book</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br/>
+            <br/>
+            <!--Favorite book card-->
+            <div class="card">
+                <div class="card-title">Top 5 Favorite Books</div>
+                <div class="card-content">
+                    <br />
+                    <table id="books">
+                        <tr>
+                            <th>Book Id</th>
+                            <th>Book Name</th>
+                        </tr>
+                        <tr>
+                            <td>100</td>
+                            <td>Dune</td>
+                        </tr>
+                        <tr>
+                            <td>101</td>
+                            <td>Ergaon</td>
+                        </tr>
+                        <tr>
+                            <td>102</td>
+                            <td>Eye of The World</td>
+                        </tr>
+                        <tr>
+                            <td>103</td>
+                            <td>Wizard's First Rule</td>
+                        </tr>
+                        <tr>
+                            <td>104</td>
+                            <td>Jurassic Park</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <!--Footer Section-->
+        <footer>
+            <p>
+                &#169; <script> document.write(new Date().getFullYear());</script> - <a href="https://www.bellevue.edu/" target="_blank"> Bellevue University</a>
+            </p>
+        </footer>
+    </body>
+</html>
