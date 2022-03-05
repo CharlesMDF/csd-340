@@ -1,0 +1,155 @@
+<!-- 
+Name: Charles Fisher
+Date: 5 March 2022
+Assignment name: Final Exam
+Purpose: Demonstrate what you’ve learned throughout the entire course
+Sources: Duckett, J. (2014). Html & CSS : design and build websites. John Wiley And Sons.
+‌         W3Schools. (2019). HTML Tutorial. W3schools.com. https://www.w3schools.com/html/default.asp
+         W3Schools. (2019). CSS Tutorial.  W3schools.com. https://www.w3schools.com/css/
+‌-->
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <title>CSD 340 Web Development with HTML and CSS</title>
+        <!--Link to CSS-->
+        <link href="fisher_FinalExam.css" type="text/css" rel="stylesheet"/>
+        <!--Link to google font package-->
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&display=swap" rel="stylesheet"/> 
+    </head>
+    <!--Page content begin-->
+    <body>
+        <!--Page main header-->
+        <header>
+            <h1>About: Charles Fisher</h1>
+        </header>
+        <!-- <figure>
+            <img src="images/MainPhoto.jpg" alt="Image of Charles Fisher">
+        </figure> -->
+        
+        <!-- Hobbies Section -->
+        <section>
+            <h2>My Hobbies</h2>
+            <div class="cardHolder">
+                <div class="card">
+                    <h3>Board Games</h3>
+                    <figure>
+                        <img src="images/BoardGamePhoto.png" alt="charles fisher playing a board game">
+                        <figcaption>
+                        My interest in board games as a hobby started when I was a kid and my family would have regular family game nights.
+                        I enjoy the unique social interaction board games provided. It is a way to both use problem solving skills while 
+                        socializing at the same time. I have further expanded my interest in the hobby by joining local table top gaming groups
+                        and expanding my collection of games. Board games offer a variety of mental and social challenges that are unique to
+                        its medium and I don't think I will ever get tired of them.
+                        </figcaption>
+                    </figure> 
+                </div>
+
+                <div class="card">
+                    <h3>Hiking</h3>
+                    <figure>
+                        <img src="images/HikingPhoto.jpg" alt="charles fisher on a hike">
+                        <figcaption>
+                            I enjoy hiking for the sense of adventure it provides. Getting a pack of supplies and taking a trip in to the
+                            wilderness even just for a few hours is like a miniature trip to get away from the daily stresses of life. 
+                            The solitude of being away from the world helps provide a good environment for self reflection. I also enjoy the
+                            feeling of satisfaction when reaching a scenic view or completing a hard climb up and down a mountain.
+                        </figcaption>
+                    </figure> 
+                </div>
+
+                <div class="card">
+                    <h3>Computers</h3>
+                    <figure>
+                        <img src="images/PCB.png" alt="A printed circuit board co designed by charles fisher.">
+                        <figcaption>
+                            I enjoy working with computers in a lot of different ways. I enjoy working on both the hardware and software
+                            aspects. I think computers provide a neat way of problem solving and interacting with the world. Working on 
+                            complicated problems with in a unique set of rules is something I enjoy and the digital logic that computers 
+                            work on provides that environment. I have worked with many different aspects of computers from programing in
+                            assembly to designing PCBs.
+                        </figcaption>
+                    </figure>                
+                </div>
+            </div>
+        </section>
+
+        <!-- work experience section -->
+        <section>
+            <h2>My Work Experience</h2>
+            <div class="cardHolder">
+            
+            <div class="card">
+                <h3>Programing Internship: May 2015 to October 2018</h3>
+                <figure>
+                    <img src="images/AIT.png" alt="Logo for Avionics Interface Technologies">
+                    <figcaption>
+                        During this time I was working part time at Avionics Interface Technologies in Omaha as a technical intern 
+                        while I was studying Computer Engineering at UNO. I programed primarily in C++ and Python to write test
+                        code for equipment used to test various avionics components. During this I also learned about software version
+                        control using Tortoise SVN and  automated testing using Jenkins. For personal reasons I was unable to finish
+                        my degree in computer engineering and enlisted in the US Air Force.
+                    </figcaption>
+                </figure> 
+            </div>
+
+            <div class="card">
+                <h3>US Air Force: December 2018 to February 2021</h3>
+                <figure>
+                    <img src="images/hill.png" alt="Logo for the 75 ABW">
+                    <figcaption>
+                        I enlisted into the US Air Force as a Client Systems Technician and was stationed at Hill AFB in Utah. There I worked
+                        in a tier 2 IT support role working on fixing client side computer components. In September 2020 I was deployed 
+                        to Afghanistan for three months and then to Kuwait until April 2021 to support on going joint operations. 
+                        During this time I preformed IT support for client devices and as worked as a network administrator.  
+                    </figcaption>
+                </figure> 
+            </div>
+
+            <div class="card">
+                <h3>US Space Force: February 2021 to Present</h3>
+                <figure>
+                    <img src="images/supra.662fbaef.png" alt="Logo For Space Force Supra Coders">
+                    <figcaption>
+                        I transferred to the US Space Force while I was deployed as part of the first round of enlisted transfers from the
+                        Air Force. I then moved to Schriever SFB in Colorado Springs to support the Space Force mission there. Currently I
+                        am in training to change to a software development job in the Space Force. The training I am currently receiving is 
+                        a 13 week software development boot camp run by Galvanize. The boot camp teaches
+                        software development with Javascript and other tools to support application development and testing.
+                    </figcaption>
+                </figure> 
+            </div>
+
+            </div>
+        </section>
+        
+        <!-- contact me section -->
+        <section>
+            <h2>Contact Me</h2>
+            <div class="cardHolder">
+                <div class="contact">
+                    <table>
+                     <tr>
+                         <td><label for="firstName">First Name</label></td>
+                         <td><input type="text" id="firstName" name="firstName" class="input"> </td>
+                     </tr>
+                     <tr>
+                        <td><label for="lastName">Last Name</label></td>
+                        <td><input type="text" id="lastName" name="lastName" class="input"> </td>
+                    </tr>
+                    <tr>
+                        <td><label for="email">Email</label></td>
+                        <td><input type="text" id="email" name="email" class="input"></td>
+                    </tr>
+                    </table>
+                    <button type="submit">Send Message</button>
+                </div>
+            </div>
+        </section>
+        <!--Footer Section-->
+        <!-- <footer>
+            <p>
+                &#169; <script> document.write(new Date().getFullYear());</script> - <a href="https://www.bellevue.edu/" target="_blank"> Bellevue University</a>
+            </p>
+        </footer> -->
+    </body>
+</html>

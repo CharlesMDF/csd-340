@@ -1,0 +1,118 @@
+/*
+Name: Charles Fisher
+Date: 5 March 2022
+Assignment name: Final Exam
+Purpose: Demonstrate what you’ve learned throughout the entire course
+Sources: Duckett, J. (2014). Html & CSS : design and build websites. John Wiley And Sons.
+‌         W3Schools. (2019). HTML Tutorial. W3schools.com. https://www.w3schools.com/html/default.asp
+         W3Schools. (2019). CSS Tutorial.  W3schools.com. https://www.w3schools.com/css/
+‌*/
+
+/*whole site style section*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*Set font style for whole page*/
+body{
+    margin: 0;
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+    background-color: #FFC999;
+}
+
+ /*style header elements*/
+ header{
+    background-color: #FF9D47;
+    color: #AC2905;
+    font-size: 25px;
+    text-align: center;
+    padding: 10px;
+    border-bottom: 5px solid #AC2905;
+}
+
+
+/* styling for hobbies and work sections */
+section{
+    display: block;
+    margin: 50px;
+}
+section h2{
+    text-align: center;
+    margin: 5px;
+    color: #AC2905;
+    font-size: 30px;
+}
+
+.cardHolder{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+}
+
+/* styling for individual cards */
+.card, .contact{
+    border: 5px solid #AC2905;
+    border-radius: 5px;
+    background-color: #FF9D47;
+    padding: 15px;
+    margin: 0 20px;
+    width: 425px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+}
+
+.card{
+    height: 700px;
+    
+}
+
+.card figcaption{
+    text-align: left;
+    width: 400px;
+    height: 250px;
+    padding: 5px 10px;
+    font-size: 20px;
+}
+
+.card img{
+    width: 400px;
+    /* height: 250px; */
+    object-fit: cover;
+    border: 5px solid #AC2905;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card h3{
+    text-align: center;
+}
+
+/* contact me section */
+.contact label{
+    display: inline-block;
+    text-align: left;
+}
+
+.contact input{
+    width: 300px;
+    margin-left: 5px;
+}
+
+.contact button{
+    border: none;
+    text-align: center;
+    display: block;
+    font-size: 16px;
+    margin: 5px auto;
+    cursor: pointer;
+    padding: 15px 32px;
+    color: black;
+    background-color: #AC2905;
+    color: #FFC999;
+}
+
+.contact button:hover{
+    background-color: #FFC999;
+    color: #AC2905;
+}
